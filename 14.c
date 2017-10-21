@@ -16,28 +16,26 @@ int main()
     printf ("输出二维数组：\n");
     for (i=0;i<4;i++)
     {
+         printf("\n");
         for (j=0;j<4;j++)
         {
+            printf("%d ",a[i][j]);
 
-         printf("%d ",a[i][j]);
         }
     }
 
-
     for (i=0;i<2;i++)
     {
-
         swap (&a[i][i],&a[3-i][3-i]);
-
     }
     getchar();
     printf ("输出二维数组：\n");
     for (i=0;i<4;i++)
     {
+         printf("\n");
       for (j=0;j<4;j++)
       {
-
-          printf("%d ",a[i][j]);
+           printf("%d ",a[i][j]);
 
       }
 
